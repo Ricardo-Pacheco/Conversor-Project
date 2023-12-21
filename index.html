@@ -20,34 +20,28 @@
             <select class="currency-select">
                 <option value="real">R$ Real Brasileiro</option>
                 <option value="dolar">US$ Dólar Americano</option>
-                <option value="euro">€ Euro</option>
-                <option value="libra">€ Libra </option>
-                <option value="bitcoin">BitCoin</option>
             </select>
         </label>
 
         <label>
             Converter <b>para:</b>
             <select class="converted-select">
-                <option value="real1">R$ Real Brasileiro</option>
-                <option value="dolar1">US$ Dólar Americano</option>
-                <option value="euro1">€ Euro</option>
-                <option value="libra1">€ Libra </option>
-                <option value="bitcoin1">BitCoin</option>
+                <option value="brasil">R$ Real Brasileiro</option>
+                <option value="americano">US$ Dólar Americano</option>
             </select>
         </label>
 
         <label>
             Valor:
-            <input class="input-currency" placeholder="Ex: 500.55">
+            <input class="input-currency" placeholder="Ex: 10000">
         </label>
 
         <button class="botao-conversor">Converter</button>
 
         <section>
             <div class="box">
-                <img src="./assets/real.png" alt="logo-real-brasleiro">
-                <p class="light">Real</p>
+                <img id="currency-image" src="./assets/real.png" alt="logo-real-brasleiro">
+                <p class="light" id="currencyname">Real</p>
                 <p class="dark-to-convert">R$ 0,00</p>
             </div>
 
