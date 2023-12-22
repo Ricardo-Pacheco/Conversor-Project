@@ -100,13 +100,13 @@ section{
     gap: 4px;
 }
 
-.light{
+.currency-name-one, .currency-name-two{
     color: #777;
     font-size: 14px;
     font-weight: 400;
 }
 
-.dark, .dark-to-convert{
+.value-one, .value-two{
     color: #555;
     font-size: 20px;
     font-weight: 700;
