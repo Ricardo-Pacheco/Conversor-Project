@@ -69,7 +69,7 @@ function convertValues() { // converter valores
 
     // real para dolar
 
-    if (selectOne.value === "real" && selectTwo.value === "dolar") {
+    if (selectOne.value === "real" && selectTwo.value === "dolar") { // REAL TO DOLAR
 
         valueOne.innerHTML = new Intl.NumberFormat("pt-BR", {
             style: "currency",
@@ -82,7 +82,7 @@ function convertValues() { // converter valores
         }).format(meuInput / dolarToday)
     }
 
-    if (selectOne.value === "dolar" && selectTwo.value === "real") {
+    if (selectOne.value === "dolar" && selectTwo.value === "real") { // DOLAR TO REAL
 
         valueOne.innerHTML = new Intl.NumberFormat("en-US", {
             style: "currency",
@@ -97,7 +97,7 @@ function convertValues() { // converter valores
 
     // REAL PARA EURO 
 
-    if (selectOne.value === "real" && selectTwo.value === "euro") {
+    if (selectOne.value === "real" && selectTwo.value === "euro") { // REAL TO EURO
 
         valueOne.innerHTML = new Intl.NumberFormat("pt-BR", {
             style: "currency",
@@ -110,7 +110,7 @@ function convertValues() { // converter valores
         }).format(meuInput / euroToday)
     }
 
-    if (selectOne.value === "euro" && selectTwo.value === "real") {
+    if (selectOne.value === "euro" && selectTwo.value === "real") { // EURO TO REAL
 
         valueOne.innerHTML = new Intl.NumberFormat("de-DE", {
             style: "currency",
@@ -125,7 +125,7 @@ function convertValues() { // converter valores
 
     // REAL PARA LIBRA 
 
-    if (selectOne.value === "real" && selectTwo.value === "libra") {
+    if (selectOne.value === "real" && selectTwo.value === "libra") { // REAL TO LIBRA
 
         valueOne.innerHTML = new Intl.NumberFormat("pt-BR", {
             style: "currency",
@@ -138,7 +138,7 @@ function convertValues() { // converter valores
         }).format(meuInput / libraToday)
     }
 
-    if (selectOne.value === "libra" && selectTwo.value === "real") {
+    if (selectOne.value === "libra" && selectTwo.value === "real") { // LIBRA TO REAL
 
         valueOne.innerHTML = new Intl.NumberFormat("en-GB", {
             style: "currency",
@@ -155,7 +155,7 @@ function convertValues() { // converter valores
 
     // DOLAR PRA EURO 
 
-    if (selectOne.value === "dolar" && selectTwo.value === "euro") {
+    if (selectOne.value === "dolar" && selectTwo.value === "euro") { // DOLAR TO EURO
 
         valueOne.innerHTML = new Intl.NumberFormat("en-US", {
             style: "currency",
@@ -168,7 +168,7 @@ function convertValues() { // converter valores
         }).format(meuInput * (dolarToday / euroToday))
     }
 
-    if (selectOne.value === "euro" && selectTwo.value === "dolar") { // EURO PARA DOLAR
+    if (selectOne.value === "euro" && selectTwo.value === "dolar") { // EURO TO DOLAR
 
         valueOne.innerHTML = new Intl.NumberFormat("de-DE", {
             style: "currency",
@@ -181,7 +181,7 @@ function convertValues() { // converter valores
         }).format(meuInput * (euroToday / dolarToday))
     }
 
-    if (selectOne.value === "dolar" && selectTwo.value === "libra") { // DOLAR PARA LIBRA
+    if (selectOne.value === "dolar" && selectTwo.value === "libra") { // DOLAR TO LIBRA
 
         valueOne.innerHTML = new Intl.NumberFormat("en-US", {
             style: "currency",
@@ -194,7 +194,7 @@ function convertValues() { // converter valores
         }).format(meuInput * (dolarToday / libraToday))
     }
 
-    if (selectOne.value === "libra" && selectTwo.value === "dolar") { // LIBRA PARA DOLAR
+    if (selectOne.value === "libra" && selectTwo.value === "dolar") { // LIBRA TO DOLAR
 
         valueOne.innerHTML = new Intl.NumberFormat("en-GB", {
             style: "currency",
@@ -211,7 +211,7 @@ function convertValues() { // converter valores
 
     // EURO PRA LIBRA: 
 
-    if (selectOne.value === "euro" && selectTwo.value === "libra") {
+    if (selectOne.value === "euro" && selectTwo.value === "libra") { // EURO TO LIBRA
 
         valueOne.innerHTML = new Intl.NumberFormat("de-DE", {
             style: "currency",
@@ -224,7 +224,7 @@ function convertValues() { // converter valores
         }).format(meuInput * (euroToday / libraToday))
     }
 
-    if (selectOne.value === "libra" && selectTwo.value === "euro") { // LIBRA PARA EURO
+    if (selectOne.value === "libra" && selectTwo.value === "euro") { // LIBRA TO EURO
 
         valueOne.innerHTML = new Intl.NumberFormat("en-GB", {
             style: "currency",
