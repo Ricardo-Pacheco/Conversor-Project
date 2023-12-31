@@ -9,7 +9,7 @@ function convertValues() { // converter valores
 
     const dolarToday = 4.89 // valor do dolar atual
     const euroToday = 5.39 //valor do euro atual
-    const libraToday = 6.21 //valor da libra atual
+    const libraToday = 6.30 //valor da libra atual
 
     // VALORES IGUAIS:
 
