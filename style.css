@@ -119,7 +119,14 @@ img {
     font-weight: 700;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 500px) {
+
+    main {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 300px) {
 
     main {
         width: 250px;
@@ -159,12 +166,5 @@ img {
 
     .value-one, .value-two{
         font-size: 14px;
-    }
-}
-
-@media screen and (max-width: 500px) {
-
-    main {
-        width: 300px;
     }
 }
