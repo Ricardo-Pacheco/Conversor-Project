@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Ricardo's Conversor</title>
+</head>
+<body>
+    <img class="logo" src="./img/logo.gif" alt="logo-gif">
+
+    <main>
+        <label>
+            Converter <b>de:</b>
+            <select class="select-one">
+                <option value="real">Real Brasileiro</option>
+                <option value="dolar">Dólar Americano</option>
+                <option value="euro">Euro</option>
+                <option value="libra">Libra</option>
+                <option value="bitcoin">BitCoin</option>
+                <option value="francosuiço">Franco Suiço</option>
+                <option value="kwanza">Kwanza</option>
+                <option value="rublo">Rublo</option>
+                <option value="rupia">Rúpia Indonésia</option>
+                <option value="iene">Iene</option>
+            </select>
+        </label>
+
+        <label>
+            Converter <b>para:</b>
+            <select class="select-two">
+                <option value="dolar">Dólar Americano</option>
+                <option value="real">Real Brasileiro</option>
+                <option value="euro">Euro</option>
+                <option value="libra">Libra</option>
+                <option value="bitcoin">BitCoin</option>
+                <option value="francosuiço">Franco Suiço</option>
+                <option value="kwanza">Kwanza</option>
+                <option value="rublo">Rublo</option>
+                <option value="rupia">Rúpia Indonésia</option>
+                <option value="iene">Iene</option>
+            </select>
+        </label>
+
+        <label>
+            Valor:
+            <input class="my-input" placeholder="Ex: 10000">
+        </label>
+
+        <button class="botao-conversor">Converter</button>
+
+        <section>
+            <div class="box">
+                <img class="image-one" src="./img/real.png" alt="real-img">
+                <p class="currency-name-one">Real</p>
+                <p class="value-one">R$ 0,00</p>
+            </div>
+
+            <img class="arrow" src="./img/arrow.png" alt="arrow-img">
+
+            <div class="box">
+                <img class="image-two" src="./img/dollar.png" alt="dollar-img">
+                <p class="currency-name-two">Dólar Americano</p>
+                <p class="value-two">$ 0,00</p>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="./script.js"></script>
+</html>
